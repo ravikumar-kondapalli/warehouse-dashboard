@@ -1,0 +1,19 @@
+# Dependencies & build output
+node_modules/
+dist/
+.vite/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS / local tooling
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/
+
+# Env files
+.env
+.env.*
