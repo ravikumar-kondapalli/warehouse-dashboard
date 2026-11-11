@@ -4,6 +4,8 @@ A single-file React component (`src/WarehouseDashboard.jsx`) that renders an int
 3D digital twin of a bale warehouse, with inventory search, live KPIs and a per-bale
 journey timeline. Everything runs on embedded static data — no backend.
 
+**Live demo:** https://ravikumar-kondapalli.github.io/warehouse-dashboard/
+
 ## Run it
 
 ```bash
@@ -12,6 +14,13 @@ npm run dev
 ```
 
 Open the URL Vite prints (default http://localhost:5173).
+
+## Deploy
+
+Every push to `main` builds the app and publishes it to GitHub Pages via
+`.github/workflows/deploy.yml` (repo **Settings → Pages → Source: GitHub Actions**).
+Production builds use the base path `/warehouse-dashboard/` (see `vite.config.js`);
+change it there if the repository is renamed.
 
 ## Use the component in another project
 
